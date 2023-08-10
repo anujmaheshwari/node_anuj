@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building.. ${BUILD_ID}'
-                `wget http://google.com`
+                echo 'Building..'
             }
         }
         stage('Test') {
