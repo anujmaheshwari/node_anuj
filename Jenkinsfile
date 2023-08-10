@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Get Checkout') {
             steps {
-                url: 'https://github.com/anujmaheshwari/node_anuj'
+                git checkourt https://github.com/anujmaheshwari/node_anuj
             }
         }
         stage('Build') {
