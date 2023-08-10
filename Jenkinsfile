@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Get Checkout') {
             steps {
-                git checkout 'https://github.com/anujmaheshwari/node_anuj'
+                node {
+                 checkout scm   
+                }
             }
         }
         stage('Build') {
