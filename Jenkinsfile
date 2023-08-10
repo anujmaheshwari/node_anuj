@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building.. ${BUILD_ID}'
-                sh 'wget http://google.com'
+                `wget http://google.com`
             }
         }
         stage('Test') {
