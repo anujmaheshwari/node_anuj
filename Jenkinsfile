@@ -2,8 +2,8 @@ pipeline {
     agent any
     stages {
         stage('Get Checkout') {
-            steps {
-                git checkout https://github.com/anujmaheshwari/node_anuj.git
+            node {
+                checkout scm
             }
         }
         stage('Build') {
