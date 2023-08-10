@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build1') {
+        stage('Build') {
             steps {
                 echo 'Building..'
                 "${currentBuild.currentResult}"
