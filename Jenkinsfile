@@ -5,7 +5,7 @@ pipeline {
         stage('Build1') {
             steps {
                 echo 'Building..'
-                ${currentBuild.currentResult}
+                "${currentBuild.currentResult}"
             }
         }
         stage('Test') {
