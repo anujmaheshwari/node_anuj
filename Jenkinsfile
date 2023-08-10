@@ -1,4 +1,4 @@
-
+currentBuild.displayName = "node_anuj"+currentBuild.number
 pipeline {
     agent any
     stages {
