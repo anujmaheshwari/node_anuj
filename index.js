@@ -23,6 +23,9 @@ routes(app);
 
 
 app.get('/', (req, res) => {
+    
+    console.log("Hello123");
+
     res.send(`Node and express server is running on port ${PORT}`);
 });
 
